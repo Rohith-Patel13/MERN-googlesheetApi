@@ -1,0 +1,3 @@
+heading : "Vendor Form"
+validations:number and no empty values
+popup after clicking on send button
