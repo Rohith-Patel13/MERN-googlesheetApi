@@ -45,7 +45,6 @@ class  App extends Component {
   };
 
   sendBtnClicked = ()=>{
-    
       const {vendorName,num,location,product,price,formFilledBy,isFixed,fixedArr}=this.state
       if (!vendorName || !num || !location || !product || !price || !formFilledBy) {
         alert("All fields must be filled!");

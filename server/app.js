@@ -26,7 +26,7 @@ app.post("/send",async(requestObject,responseObject)=>{
         console.log(AllValues)
         await sheetClientDetails.sheets.spreadsheets.values.append({
             spreadsheetId:sheetClientDetails.sheet_id,
-            range:'Details!A:G',
+            range:'VendorData!A:G',
             insertDataOption:'INSERT_ROWS',
             valueInputOption:'RAW',
             requestBody:{

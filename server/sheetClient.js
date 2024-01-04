@@ -1,6 +1,6 @@
 const {google}  = require("googleapis")
 
-const {client_email,private_key} = require("./secrets.json.json")
+const {client_email,private_key} = require("./vendorForm-secrets.json")
 
 const dotenv = require("dotenv");
 dotenv.config();

@@ -1,3 +1,9 @@
-heading : "Vendor Form"
-validations:number and no empty values
-popup after clicking on send button
+in sheetClient.js  change below line:
+const {client_email,private_key} = require("./secrets.json.json")
+
+
+in .env file change below line:
+SHEET_ID = 1eXOS4_BUx_ZkHpWrpEkC81mZPKRoedJ_cYfR_59rSYk
+
+add particular service account id in google sheet as of now add below:
+vendor-form-account@vendor-form-410205.iam.gserviceaccount.com
